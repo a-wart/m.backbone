@@ -1,0 +1,35 @@
+{
+  "name": "",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.8.8"
+  },
+  "scripts": {
+    "start": "grunt launch",
+    "watch": "grunt watch"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-handlebars": "latest",
+    "grunt-contrib-requirejs": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-jasmine-task": "latest",
+    "temporary": "*"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "compression": "^1.2.0",
+    "connect": "^3.3.3",
+    "connect-rest": "^1.4.6",
+    "cookie-parser": "^1.3.3",
+    "cookie-session": "^1.1.0",
+    "express": "^4.10.2",
+    "lodash": "^2.4.1",
+    "method-override": "^2.3.0",
+    "needle": "^0.7.10",
+    "serve-static": "^1.7.1"
+  }
+}

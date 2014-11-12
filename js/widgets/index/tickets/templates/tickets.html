@@ -1,0 +1,11 @@
+{{! Search results }}
+<ul class="b-search_results">
+	{{#each this}}
+		<li class="b-search_results-item">
+            <div class="b-search_results-item_price">{{price}} ₽</div>
+            <a target="_blank" href="{{deeplink}}">
+                <div class="b-buy_button">Get it now!</div>
+            </a>
+        </li>
+	{{/each}}
+</ul>
