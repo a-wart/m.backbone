@@ -4,13 +4,11 @@ define([
 	// Собираем все зависимости приложения
 	'backbone',
 	'resources',
-	'cookie',
 	'shims',
 	'jquery-plugins-init',
 	'backbone-overrides',
 	'handlebars',
 	'handlebars-helpers',
-	'geo',
 ], function(Backbone, Resources) {
 
 	// TODO: по идее нужно всё последующее добро добавлять в прототип

@@ -18,7 +18,7 @@ this["TPL"]["tickets:tickets"] = Handlebars.template({"1":function(depth0,helper
   var helper, functionType="function", helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression;
   return "		<li class=\"b-search_results-item\">\n            <div class=\"b-search_results-item_price\">"
     + escapeExpression(((helper = (helper = helpers.price || (depth0 != null ? depth0.price : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"price","hash":{},"data":data}) : helper)))
-    + " ₽</div>\n\n            <a target=\"_blank\" href=\""
+    + " ₽</div>\n            <a target=\"_blank\" href=\""
     + escapeExpression(((helper = (helper = helpers.deeplink || (depth0 != null ? depth0.deeplink : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"deeplink","hash":{},"data":data}) : helper)))
     + "\">\n                <div class=\"b-buy_button\">Get it now!</div>\n            </a>\n        </li>\n";
 },"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
